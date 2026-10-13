@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_open_profile" android:title="@string/open_profile" />
+    <item android:id="@+id/action_refresh_account" android:title="@string/refresh_account" />
+    <item android:id="@+id/action_edit_label" android:title="@string/edit_label" />
+    <item android:id="@+id/action_remove_account" android:title="@string/remove_account" />
+</menu>

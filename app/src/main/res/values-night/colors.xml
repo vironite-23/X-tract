@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF9DB8FF</color>
+    <color name="on_primary">#FF002A6B</color>
+    <color name="primary_container">#FF0F3FA8</color>
+    <color name="on_primary_container">#FFDCE6FF</color>
+    <color name="secondary_container">#FF2B3547</color>
+    <color name="on_secondary_container">#FFDDE5F5</color>
+    <color name="card_bg">#FF1B1F27</color>
+    <color name="status_ok">#FF81C784</color>
+    <color name="status_warn">#FFFFB74D</color>
+    <color name="status_error">#FFF2B8B5</color>
+</resources>

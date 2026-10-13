@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.App" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/on_secondary_container</item>
+        <item name="android:windowBackground">?attr/colorSurface</item>
+    </style>
+
+    <style name="Theme.App.Viewer" parent="Theme.App">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.Thumb" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="App.IconButton" parent="Widget.Material3.Button.IconButton">
+        <item name="android:minWidth">44dp</item>
+        <item name="android:minHeight">44dp</item>
+    </style>
+
+    <style name="App.SectionTitle" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style
+        name="Widget.Material3Expressive.BottomNavigationView"
+        parent="Widget.Material3.BottomNavigationView">
+        <item name="android:minHeight">68dp</item>
+        <item name="itemPaddingTop">8dp</item>
+        <item name="itemPaddingBottom">6dp</item>
+    </style>
+
+    <style
+        name="Widget.Material3Expressive.LinearProgressIndicator" parent="Widget.Material3.LinearProgressIndicator" />
+ 
+    <style
+        name="Widget.Material3Expressive.LinearProgressIndicator.Wavy" parent="Widget.Material3Expressive.LinearProgressIndicator">
+        <item name="trackThickness">4dp</item>
+        <item name="trackCornerRadius">2dp</item>
+        <item name="waveAmplitude">2dp</item>
+        <item name="wavelength">25dp</item>
+        <item name="waveSpeed">8dp</item>
+    </style>
+</resources>

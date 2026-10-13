@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/dt_thumb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_thumb_placeholder"
+        android:contentDescription="@string/cd_thumbnail"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/dt_play"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_play_overlay" />
+
+    <TextView
+        android:id="@+id/dt_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="4dp"
+        android:background="@drawable/bg_badge"
+        android:paddingStart="4dp"
+        android:paddingTop="1dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="1dp"
+        android:textColor="@color/badge_text"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/dt_resolution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:layout_margin="4dp"
+        android:background="@drawable/bg_badge"
+        android:paddingStart="4dp"
+        android:paddingTop="1dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="1dp"
+        android:textColor="@color/badge_text"
+        android:textSize="9sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/dt_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="4dp"
+        android:background="@drawable/bg_badge"
+        android:paddingStart="4dp"
+        android:paddingTop="1dp"
+        android:paddingEnd="4dp"
+        android:paddingBottom="1dp"
+        android:textColor="@color/badge_text"
+        android:textSize="9sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/dt_missing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/scrim_dark"
+        android:gravity="center"
+        android:textColor="@color/badge_text"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <!-- "+N" on the last visible tile when the post has more files than fit -->
+    <TextView
+        android:id="@+id/dt_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/scrim_dark"
+        android:gravity="center"
+        android:textColor="@color/badge_text"
+        android:textSize="26sp"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/dt_selected"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_selected_frame"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/dt_check"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="6dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_check_overlay"
+        android:visibility="gone" />
+</FrameLayout>

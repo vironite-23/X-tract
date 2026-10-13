@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF2F6BFF</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="primary_container">#FFDCE6FF</color>
+    <color name="on_primary_container">#FF001B3F</color>
+    <color name="secondary_container">#FFE1E8F7</color>
+    <color name="on_secondary_container">#FF121C2B</color>
+    <color name="card_bg">#FFF4F6FB</color>
+    <color name="scrim_dark">#99000000</color>
+    <color name="badge_bg">#80000000</color>
+    <color name="badge_text">#FFFFFFFF</color>
+    <color name="status_ok">#FF2E7D32</color>
+    <color name="status_warn">#FFB26A00</color>
+    <color name="status_error">#FFB3261E</color>
+    <color name="ic_launcher_background">#FF2F6BFF</color>
+</resources>
